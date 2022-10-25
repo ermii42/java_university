@@ -6,11 +6,11 @@ public class Leg {
         legLength=size;
     }
 
-    public void setLegLength(int legLength) {
+    public void setLength(int legLength) {
         this.legLength = legLength;
     }
 
-    public int getLegLength() {
+    public int getLength() {
         return legLength;
     }
 }

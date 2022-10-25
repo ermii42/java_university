@@ -18,16 +18,16 @@ public class Human {
     }
 
     public void setHandsLength(int hands) {
-        leftHand.setHandLength(hands);
-        rightHand.setHandLength(hands);
+        leftHand.setLength(hands);
+        rightHand.setLength(hands);
     }
     public void setLegsLength(int legs) {
-        leftLeg.setLegLength(legs);
-        rightLeg.setLegLength(legs);
+        leftLeg.setLength(legs);
+        rightLeg.setLength(legs);
     }
 
     public void setHeadSize(int size){
-        head.setHeadSize(size);
+        head.setLength(size);
     }
 
     public void setGender(String gender) {
@@ -47,8 +47,8 @@ public class Human {
         System.out.println("The gender is:\t"+gender);
         System.out.println("The height is:\t"+height);
         System.out.println("The weight is:\t"+weigth);
-        System.out.println("Hands length:\t"+rightHand.getHandLength());
-        System.out.println("Legs length:\t"+rightLeg.getLegLength());
-        System.out.println("Head size\t"+head.getHeadSize());
+        System.out.println("Hands length:\t"+rightHand.getLength());
+        System.out.println("Legs length:\t"+rightLeg.getLength());
+        System.out.println("Head size\t"+head.getLength());
     }
 }

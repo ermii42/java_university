@@ -7,11 +7,11 @@ public class Head {
         headSize=size;
     }
 
-    public void setHeadSize(int headSize) {
+    public void setLength(int headSize) {
         this.headSize = headSize;
     }
 
-    public int getHeadSize() {
+    public int getLength() {
         return headSize;
     }
 }

@@ -7,11 +7,11 @@ public class Hand {
         handLength = size;
     }
 
-    public void setHandLength(int handLength) {
+    public void setLength(int handLength) {
         this.handLength = handLength;
     }
 
-    public int getHandLength() {
+    public int getLength() {
         return handLength;
     }
 }
