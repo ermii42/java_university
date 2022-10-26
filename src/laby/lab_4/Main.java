@@ -1,4 +1,5 @@
 package laby.lab_4;
+//СДАНО
 
 /*
 Реализовать интерфейс Priceable, имеющий метод getPrice(),29

@@ -159,6 +159,6 @@ class BorderExample extends JFrame
 
             }
         });
-        setSize(800, 500);
+        setSize(400, 400);
     }
 }

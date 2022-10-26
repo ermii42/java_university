@@ -1,0 +1,8 @@
+Чтение файлов. Класс FileReader
+Класс FileReader наследуется от абстрактного класса Reader и
+предоставляет функциональность для чтения текстовых файлов.
+Для создания объекта FileReader мы можем использовать один из
+его конструкторов:
+FileReader(String fileName)
+FileReader(File file)
+FileReader(FileDescriptor fd)
