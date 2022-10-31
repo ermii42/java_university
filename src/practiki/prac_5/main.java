@@ -1,5 +1,5 @@
 package practiki.prac_5;
-
+// сдано
 import java.util.Scanner;
 
 public class main {

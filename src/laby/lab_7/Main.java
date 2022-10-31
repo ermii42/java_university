@@ -1,5 +1,5 @@
 package laby.lab_7;
-
+// сдано
 import java.util.LinkedList;
 
 // Протестировать работу коллекции LinkedList.

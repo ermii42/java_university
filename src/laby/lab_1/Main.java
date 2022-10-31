@@ -1,11 +1,14 @@
 package laby.lab_1;
-
+// сдано
 public class Main {
     public static void main(String[] args) {
 
         // вывод агрументов командной строки
-        for(int i=0; i<args.length; i++){
+        int i=0;
+        for( ;; ){
             System.out.println(args[i]);
+            i++;
+            if (i>=args.length) break;
         }
         System.out.println("Count of args is: "+ args.length);
     }

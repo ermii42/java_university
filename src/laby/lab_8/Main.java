@@ -3,7 +3,7 @@ package laby.lab_8;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
+// сдано
 //  Реализовать вывод информации из файла на экран
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
