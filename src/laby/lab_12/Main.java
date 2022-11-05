@@ -23,13 +23,12 @@ public class Main {
     public static void main(String[] args) {
         // 1
         // java5tiger 77 java6mustang
-        /*
         Scanner in = new Scanner(System.in);
         Pattern p1 = Pattern.compile("\\d+\\s?");
         String[] words = p1.split(in.nextLine());
         for (String word : words) {
             System.out.println(word);
-        }*/
+        }
 
         //2
         Pattern p2 = Pattern.compile("^abcdefghijklmnopqrstuv18340$");
