@@ -1,7 +1,7 @@
 package practiki.prac_11_12;
 
 public class Person {
-    private String name="", fam="", ot="";
+    private String name="Name", fam="Fam", ot="Ot";
 
     public Person(String fam, String name, String ot) {
         this.fam = fam;

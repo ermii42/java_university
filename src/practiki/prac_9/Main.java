@@ -1,4 +1,5 @@
 package practiki.prac_9;
+//СДАНО
 
 /*
 Клиент совершает покупку онлайн. При оформлении заказа у пользователя запрашивается фио и
@@ -15,6 +16,10 @@ public class Main {
             System.out.println(client);
         }catch (INNException e){
             System.out.println("Недействительный ИНН:  "+e.getMessage());
+            System.out.println("dsws");
+            return;
+        }finally{
+            System.out.println(1);
         }
     }
 }

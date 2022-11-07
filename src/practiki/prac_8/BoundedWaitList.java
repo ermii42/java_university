@@ -17,3 +17,11 @@ public class BoundedWaitList<E> extends WaitList {
         return content.toString();
     }
 }
+/*
+elem
+stack1 - исх
+stack2 - допол
+
+
+
+ */
