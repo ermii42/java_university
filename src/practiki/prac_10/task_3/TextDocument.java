@@ -1,13 +1,13 @@
 package practiki.prac_10.task_3;
 
-public class TextDocument implements IDocument{
+public class TextDocument implements ICreateDocument {
     @Override
     public IDocument CreateNew(String src) {
-        return new TextDocument();
+        return null;
     }
 
     @Override
     public IDocument CreateOpen(String src) {
-        return new TextDocument();
+        return null;
     }
 }
