@@ -33,7 +33,7 @@ public class Main
     public static void main(String[] args)
     {
         CreateTextDocument create = new CreateTextDocument();
-        IDocument t = create.CreateNew("newFile");
+        IDocument t = create.CreateNew("");
         t.run();
     }
 }
