@@ -30,9 +30,7 @@ public class TextDocument extends JFrame implements IDocument  {
     }
 
     @Override
-    public void PushExit() {
-        this.filename = "";
-    }
+    public void PushExit() {System.exit(0);}
 
     @Override
     public void run() {
@@ -92,7 +90,6 @@ public class TextDocument extends JFrame implements IDocument  {
             @Override
             public void actionPerformed(ActionEvent e) {
                 PushExit();
-                label.setText("Текущий файл: "+filename);
             }
         });
 
