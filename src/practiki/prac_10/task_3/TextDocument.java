@@ -1,10 +1,6 @@
 package practiki.prac_10.task_3;
 
-import practiki.prac_10.Main;
-
 import javax.swing.*;
-import javax.swing.event.MenuDragMouseEvent;
-import javax.swing.event.MenuDragMouseListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -43,6 +39,7 @@ public class TextDocument extends JFrame implements IDocument  {
         Font font = new Font("Verdana", Font.PLAIN, 18);
         label.setAlignmentX(CENTER_ALIGNMENT);
         label.setFont(font);
+        txt.setText(filename);
         content.add(label);
         txt.setFont(new Font("Dialog", Font.PLAIN, 30));
         content.add(txt);
