@@ -1,5 +1,5 @@
 package last.task4;
-
+// СДАНО
 import java.util.Scanner;
 
 public class Main {
@@ -43,7 +43,7 @@ public class Main {
     private static boolean next_permutation(int[] p) {
         for (int a = p.length - 2; a >= 0; --a)
             if (p[a] < p[a + 1])
-                for (int b = p.length - 1;; --b)
+                for (int b = p.length - 1;b>=0; --b)
                     if (p[b] > p[a]) {
                         int t = p[a];
                         p[a] = p[b];

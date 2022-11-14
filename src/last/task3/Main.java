@@ -1,5 +1,5 @@
 package last.task3;
-
+// СДАНО
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,8 +11,9 @@ public class Main {
         int k=0;
         int n=input.nextInt();
 
-        for(int i=n-100>1 ? n-100:1; i<=n; i++){
-            if(getSum(i)+i == n) {
+
+        for(int i=n-81>1 ? n-81:1; i<=n; i++){
+            if(getSum(i) + i == n){
                 result.add(i);
                 k++;
             }

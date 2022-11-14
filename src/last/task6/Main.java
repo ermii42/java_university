@@ -1,5 +1,5 @@
 package last.task6;
-
+// СДАНО
 import java.util.ArrayList;
 import java.util.Scanner;
 

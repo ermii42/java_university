@@ -1,10 +1,10 @@
 package last.task1;
-
+// СДАНО, ПЕРЕДЕЛАЙ
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-// B. Филя и задание
+//1 Филя и задание
 public class Main {
     public static void main(String[] args) {
         int n;

@@ -1,5 +1,5 @@
 package last.task2;
-
+// СДАНО
 import java.util.Scanner;
 
 //№2. Nirvana
