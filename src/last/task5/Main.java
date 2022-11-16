@@ -32,12 +32,12 @@ public class Main {
         }
          */
 
-        /*
+
         Collections.sort(lst);
         for(int number: lst){
             if(number>=mex) mex++;
         }
-        */
+
         System.out.println(mex);
     }
 }
