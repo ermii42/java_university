@@ -1,5 +1,6 @@
 package practiki.prac_6;
 // СДАНО
+
 public class TestStudent {
     public static void main(String[] args) {
         Student s1 = new Student("Евгений", 3.0);
